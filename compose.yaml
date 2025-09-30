@@ -34,10 +34,13 @@ services:
 
 volumes:
   gitea_postgres:
+    name: gitea_postgres
   gitea:
+    name: gitea
 
 networks:
   webnet:
+    name: webnet
 #    external: true
 
 
